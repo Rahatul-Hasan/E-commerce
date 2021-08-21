@@ -1,0 +1,489 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.full_website{
+    font-family: 'Merienda', cursive;
+}
+
+/* .........Banner Section.......... */
+
+.banner{
+    padding: 100px;
+    background-image: radial-gradient(white,crimson);
+    
+}
+.banner h1{
+    position: relative;
+    top: -70px;
+    left: 0px;
+    font-weight: 400;
+}
+.menu{
+    position: relative;
+    left: 870px;
+    top: -100px;
+    font-weight: 400;
+}
+.menu ul{}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    color: black;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 20px;
+    transition: .5s;
+}
+.menu ul li a:hover{
+    color: white;
+}
+
+.text{
+    display: inline-block;
+    text-transform: capitalize;
+    position: relative;
+    bottom: 80px;
+    
+}
+.text h1{
+    font-size: 50px;
+    font-weight: 700;
+
+}
+.text p{
+    width: 500px;
+    font-weight: 400;
+    margin-top: -30px;
+}
+.text a{
+    background-color: #ca183c;
+    display: inline-block;
+    padding: 5px 20px;
+    border-radius: 50px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 20px;
+    transition: .5s;
+}
+.text a:hover{
+    background-color: #ff0033;
+}
+.text a::after{
+    content: "\f30b";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    margin-left: 5px;
+}
+
+.bimg{
+    display: inline-block;
+    width: 500px;
+    margin-left: 250px;
+    margin-top: 50px;
+}
+.bimg img{
+    max-width: 100%;
+}
+
+
+ /* ..............Container.............. */
+
+
+.hdiv{
+    text-align: center;
+}
+.hdiv h1{
+    padding: 100px;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Merienda', cursive;
+}
+.hdiv h1::after{
+    content: "";
+    height: 5px;
+    width: 100%;
+    background-color: #e91d45;
+    display: block;
+}
+
+ /*.......... Image Section ........ */
+
+ .setup{
+    display: inline-block;
+    margin: 50px;
+    text-align: left;
+    line-height: 40px;
+    font-weight: 400;
+    position: relative;
+    
+}
+.setup i{
+    color: #f00836;
+}
+.image{
+    padding: 50px;
+    margin-left: 100px;
+    margin-top: -130px;
+}
+.img1{
+    height: 300px;
+    width: 300px;
+    position: relative;
+}
+.img1 img{
+    max-width: 100%;
+}
+
+.inner{
+    height: 86%;
+    width: 100%;
+    background-color: rgba(5, 4, 4, 0.349);
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    transition: .5s;
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(0);
+    transform-origin: left center;
+}
+.img1:hover .inner{
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+}
+.inner i{
+    color: white;
+}
+.inner h3{
+    color: white;
+    background-color: #ff0134;
+    display: inline-block;
+    margin-top: 110px;
+    padding: 2px 10px;
+}
+
+/* ...........Latest Section........... */
+
+.latest{
+    position: relative;
+    top: -100px;
+}
+.ldiv{
+    text-align: center;
+
+    
+}
+.ldiv h1{
+    padding: 100px;
+    font-size: 50px;
+    text-align: center;
+    font-weight: 400;
+}
+.ldiv h1::after{
+    content: "";
+    height: 5px;
+    width: 100%;
+    background-color: #e91d45;
+    display: block;
+}
+
+/*............ SECOND BANNER........... */
+
+
+.second_banner{
+    padding: 50px;
+    background-image: radial-gradient(white,crimson);
+    margin-top: -180px;  
+}
+.sbtext{
+    display: inline-block;
+    text-transform: capitalize;
+    position: relative;
+    bottom: 80px;
+    margin-left: 50px;
+    
+}
+.sbtext h1{
+    font-size: 50px;
+    font-weight: 700;
+    position: relative;
+    top: -90px;   
+
+}
+.sbtext h3{
+    position: relative;
+    top: -50px;
+    font-size: 30px;
+}
+.sbtext p{
+    width: 500px;
+    font-weight: 400;
+    margin-top: -30px;
+    text-align: justify;
+    line-height: 30px;
+}
+.sbtext a{
+    background-color: #ca183c;
+    display: inline-block;
+    padding: 5px 20px;
+    border-radius: 50px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 20px;
+    transition: .5s;
+}
+.sbtext a:hover{
+    background-color: #ff0033;
+}
+.sbtext a::after{
+    content: "\f30b";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    margin-left: 5px;
+}
+
+.sbimg{
+    display: inline-block;
+    width: 600px;
+    margin-left: 250px;
+    margin-top: 50px;
+}
+.sbimg img{
+    max-width: 100%;
+}
+
+
+/*..........TESTIMONIAL........... */
+
+
+.testimonial{
+    text-align: center;
+}
+.tdiv{
+    text-align: center; 
+    margin-bottom: 80px;  
+}
+.tdiv h1{
+    padding: 100px;
+    font-size: 50px;
+    text-align: center;
+    font-weight: 400;
+}
+.tdiv h1::after{
+    content: "";
+    height: 5px;
+    width: 100%;
+    background-color: #e91d45;
+    display: block;
+}
+
+.maindiv{
+    width: 400px;
+    background-color: rgba(172, 160, 160, 0.603);
+    padding: 50px;
+    position: relative;
+    transition: .5s;
+    display: inline-block;
+    
+}
+
+.ximage img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    position: absolute;
+    top: -80px;
+    left: 170px;
+}
+.para{
+    margin-top: 50px;
+    width: 400px;
+    text-align: left;
+}
+.name{
+    text-align: center;
+}
+.name h2{
+    color: #e91d45;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.maindiv:hover h2{
+    color: white;
+}
+.name h3{
+    font-weight: 400;
+}
+.fquote{
+    height: 100px;
+    width: 100px;
+    transform: rotateY(180deg);
+    position: absolute;
+    left: 30px;
+    bottom: 20px;
+    opacity: .5;
+    transition: .5s;
+    
+    
+}
+.squote{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 20px;
+    right: 70px;
+    opacity: .5;
+    transition: .5s;
+    
+}
+.maindiv:hover{
+    background-color: #e91d45;
+    color: white;
+}
+.maindiv:hover .squote{
+    transform: translateY(-78px);
+    opacity: 1;
+}
+.maindiv:hover .fquote{
+    bottom: -50px;
+    opacity: 1;
+}
+.logo{
+    text-align: center;
+    margin: 100px;
+}
+.logo img{
+    margin-right: 100px;
+    opacity: .3;
+    transition: .5s;
+}
+.logo img:hover{
+    opacity: .8;
+}
+
+
+/* ..............FOOTER SECTION.............  */
+
+
+.footer{
+    background-color: rgb(0, 0, 0);
+    padding: 50px 100px;
+    color: white;
+}
+
+.div1{
+    width: 300px;
+    display: inline-block;
+}
+.div1 h1{
+    margin-bottom: 20px;
+}
+.div1 p{
+    margin-bottom: 15px;
+}
+
+.div1 ul li{
+    display: inline-block;
+}
+.div1 ul li i{
+    height: 40px;
+    width: 40px;
+    border: 1px solid white;
+    border-radius: 50%;
+    line-height: 40px;
+    font-size: 20px;
+    text-align: center; 
+    transition: .5s;  
+}
+.div1 ul li i:hover{
+    background-color: #fff;
+    color: #e91d45;
+}
+
+.div2{
+    display: inline-block;
+    width: 200px;
+    transform: translateY(-42px);
+    margin-right: 150px;
+}
+.div2 h1{
+    margin-bottom: 20px;
+}
+.div2 ul{}
+.div2 ul li{
+    list-style: none;
+    font-size: 20px;
+    line-height: 40px;
+    transition: .5s;
+}
+.div2 ul li::before{
+    content: "\f054";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    margin-right: 15px;
+
+}
+.div2 ul li:hover{
+    color: #e91d45;
+}
+
+.div3{
+    display: inline-block;
+    width: 200px;
+    transform: translateY(-122px);
+    margin-right: 150px;
+}
+.div3 h1{
+    margin-bottom: 20px;
+}
+.div3 ul{}
+.div3 ul li{
+    list-style: none;
+    font-size: 20px;
+    line-height: 40px;
+    transition: .5s;
+}
+.div3 ul li::before{
+    content: "\f054";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    margin-right: 15px;
+
+}
+.div3 ul li:hover{
+    color: #e91d45;
+}
+
+.div4{
+    display: inline-block;
+    width: 300px;
+    transform: translateY(-82px);
+}
+.div4 h1{
+    margin-bottom: 20px;
+}
+
+.div4 ul li{
+    list-style: none;
+    font-size: 20px;
+    line-height: 40px;
+    transition: .5s;
+}
+
+.div4 ul li:hover{
+    color: #e91d45;
+}
+.lastf{
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    color: white;   
+}
